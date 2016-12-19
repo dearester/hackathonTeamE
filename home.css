@@ -1,0 +1,85 @@
+body {
+    background-image: url("images/usmap1.jpg");
+    background-size: 1280px 720px;
+    background-repeat: no-repeat;
+}
+
+.heading {
+    text-align: center;
+    font-family: "Arial Black", Gadget, sans-serif;
+    color: green;
+    text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+    font-size: 30px;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    border-color: blue;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 2px solid skyblue;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+    width: 50%;
+    font-size: 50px;
+    text-shadow: 2px 2px black;
+}
+
+.dots {
+    position: absolute;
+    left: 1145px;
+    top: 100px;
+}
+
+.dots2 {
+    position: absolute;
+    left: 950px;
+    top: 148px;
+}
+
+.dots3 {
+    position: absolute;
+    left: 1155px;
+    top: 140px;
+}
+
+.dots4 {
+    position: absolute;
+    left: 1060px;
+    top: 180px;
+}
+
+.dots5 {
+    position: absolute;
+    left: 975px;
+    top: 225px;
+}
+
+.dots6 {
+    position: absolute;
+    left: 925px;
+    top: 215px;
+}
+
+.buttondiv {
+    margin: auto;
+    text-align: center;
+    padding: 200px 0px 0px 0px;
+}
+
+.button:hover {
+    background-color: #3e8e41
+}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
